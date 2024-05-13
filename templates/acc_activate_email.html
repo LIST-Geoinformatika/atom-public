@@ -1,0 +1,38 @@
+{% autoescape off %}
+<!DOCTYPE html>
+<p style="color: #000000">{{ greeting }}</p>
+<p style="color: #000000">{{ info }}</p>
+<p style="color: #000000">{{ description_msg }} {{ email }}</p>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0">
+        <tr>
+          <td style="border-radius: 2px" bgcolor="#00AEEF">
+            <a
+              href="{{ link }}"
+              target="_blank"
+              style="
+                padding: 8px 12px;
+                border: 1px solid #00aeef;
+                border-radius: 2px;
+                font-family: Roboto, Arial, sans-serif;
+                font-size: 14px;
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: bold;
+                display: inline-block;
+              "
+            >
+              {{ bttn_text }}
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<p style="color: #000000">{{ alternate_text }} {{link}}</p>
+{% endautoescape %}

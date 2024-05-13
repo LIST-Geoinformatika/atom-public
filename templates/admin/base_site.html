@@ -1,0 +1,15 @@
+{% extends "admin/base.html" %}
+{% block dark-mode-vars %}{% endblock %}
+{% load static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block extrastyle %}{{ block.super }}<link rel="stylesheet" type="text/css" href="{% static 'user/css/admin-extra.css' %}" />{% endblock %}
+
+{% block branding %}
+<h1 id="head"> 
+    <img alt="Django List Admin" src="{% static 'user/img/list-logo.png' %}" class="brand_img" height="90"> 
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

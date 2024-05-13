@@ -1,0 +1,7 @@
+{% autoescape off %}
+{{ greeting }}
+{{ info }}
+{{ description_msg }} {{ email }}
+
+{{ link }}
+{% endautoescape %}  

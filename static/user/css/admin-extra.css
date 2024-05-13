@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/*login_page*/
+
+body {
+    background: white;
+    font-family: 'Raleway'!important;
+}
+
+/*ADMINISTRACIJA*/
+
+#header {
+    background-color: white;
+}
+
+#header a:link, #header a:visited {
+    color:#364145 !important;
+}
+
+#header a:hover {
+    color: #0F96B9!important;
+}
+
+#user-tools {
+    text-transform: initial;
+    font-size: 14px; 
+    color: black!important;
+}
+#user-tools a {
+    border: none;
+}
+
+.module {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+
+.module caption {
+    background: rgba(196, 196, 196, 0.1);
+    border-bottom: 2px solid #001f3f7a;
+    box-shadow: 0px 1px 0px 0px #00000052;
+}
+
+.module caption a{
+    color: #163861!important;
+    font-size: 19px!important;
+    text-transform: initial;
+}
+
+#content-main .app-user.module table tr, #content-main .app-user.module table tr td, #content-main .app-user.module table tr th  {
+    border: none;
+}
+
+#content-main .app-auth.module table tr, #content-main .app-auth.module table tr td, #content-main .app-auth.module table tr th  {
+    border: none;
+}
+
+#content-main .app-obrasci.module table tr, #content-main .app-obrasci.module table tr td, #content-main .app-obrasci.module table tr th  {
+    border: none;
+    background: none;
+}
+.module table {
+    border-collapse: initial;
+}
+
+.module table th  {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#toggle-nav-sidebar {
+    display: none;
+}
+
+.module caption a:hover{
+    color: #0F96b9!important;
+    text-decoration: underline!important;
+}
+.dashboard .module table td {
+    font-size: 14px;
+}
+
+/*ikona za dodavanje*/
+.addlink {
+    background: url(../img/plus-circle.svg);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    background-size: 16px 16px;
+}
+
+.changelink {
+    background: url(../img/pencil.svg);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+.deletelink {
+    background: url(../img/x-circle-fill.svg);
+    background-repeat: no-repeat;
+}
+
+.viewlink {
+    background: url(../img/eye.svg);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+#content-related {
+    background-color: white;
+    margin-right: -85%;
+}
+
+#user-tools:not(a) {
+    color: #0F96B9!important;
+}
+
+.module table tbody tr th a {
+    color: #001F3F;
+    font-weight: 600;
+}
+
+.module table tbody tr th a:hover {
+    color: #12a3c8!important;
+    text-decoration: underline!important;
+}
+
+.dashboard .module table td a:hover {
+    color: #12a3c8!important;
+    text-decoration: underline!important;
+    text-shadow: unset;
+}
+
+
+
+
+/*Početna -> Autentifikacija -> Korisnici*/
+.main.shifted > #nav-sidebar {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+/*Boja označenog modula u sidebar-u*/
+#nav-sidebar .current-model{
+    background-color: #0F96B9;
+    box-shadow: 0px 0px 2px 1px #6F6F6F;
+}
+
+#nav-sidebar .current-model th a, .current-model td a:link {
+    color: white;
+}
+
+#nav-sidebar .current-model td a:link {
+    background: url(../img/plus-circle–visited.svg);
+    background-repeat: no-repeat;
+}
+
+.current-model a {
+    color: white!important;
+}
+
+#nav-sidebar {
+    border: none;
+}
+#nav-sidebar table {
+    border-collapse: collapse;
+}
+
+#nav-sidebar td, #nav-sidebar th {
+    font-size: 14px;
+    line-height: 14px;
+    padding: 12px;
+}
+
+#nav-sidebar .module th, #nav-sidebar .module tr td{
+    border: none;
+}
+
+
+#changelist .paginator {
+    width: unset;
+    border-bottom: unset!important;
+}
+
+.paginator {
+    margin: revert!important;
+    padding-left: 7px!important;
+}
+
+#toolbar {
+    border-top: unset!important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #001f3f7a!important;
+    box-shadow: 0px 1px 3px 0px #00000052;
+}
+
+#toolbar form input[type="submit"] {
+    background: #0F96B9!important;
+    padding: 8px 12px!important;
+    color: white!important;
+    border-radius: 10px!important;
+    border: 1px solid #0F96B9!important;
+}
+
+
+#toolbar form input[type="submit"]:focus, #toolbar form input[type="submit"]:hover {
+    border-color: #DAC342!important;
+    background: #DAC342!important;
+}
+
+#content h1{
+    font-weight: 500;
+}
+
+div.breadcrumbs {
+    background: #b4b4b4!important;
+    font-size: 16px!important;
+    color: #0F96B9!important;
+    font-weight: bold;
+}
+
+div.breadcrumbs a {
+    color: black!important;
+    font-weight: normal;
+}
+
+div.breadcrumbs a:focus, div.breadcrumbs a:hover {
+    color: black!important;
+}
+
+.object-tools a:link, .object-tools a:visited {
+    background: #0F96B9!important;
+    font-size: 13px;
+    color: white!important;
+    text-transform:initial!important;
+    padding-right: 12px!important;
+}
+
+.object-tools a.addlink {
+    background-image: unset!important;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+    background-color: #6F6F6F!important;
+}
+
+.object-tools a {
+    border-radius: 10px;
+}
+
+.results thead th a:link, .results thead th a:visited {
+    color: #325682!important;
+}
+#result_list table thead th .text a:focus, table thead th .text a:hover {
+    background: unset;
+    font-weight: 600;
+    color: #DAC342!important
+}
+
+#result_list thead th.sorted {
+    background: white!important;
+}
+
+#result_list thead th {
+    background: white!important;
+}
+
+#result_list table tbody tr {
+    border-bottom: 1px solid #325682!important;
+}
+
+#changelist {
+    border: none;
+}
+
+#changelist .changelist-form-container {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    border-color:#0F
+}
+
+#changelist .actions {
+    width: auto!important;
+}
+
+#result_list tbody, #result_list{
+    border-collapse: collapse!important;
+}
+
+#result_list tr {
+    border-bottom: 1px solid #C4C4C4!important;
+}
+#result_list thead th {
+    border-top: none!important;
+}
+#changelist .actions .button {
+    background: #0F96B9!important;
+    padding: 10px 14px!important;
+    color: white!important;
+    border-radius: 10px!important;
+    border: 1px solid #0F96B9!important;
+    line-height: 0!important;
+    font-size: 13px!important;
+}
+#id_permissions_to, #id_groups_to, #id_user_permissions_to {
+    border-top: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.selector-available h2, .selector-chosen h2 {
+    border-radius: 10px!important;
+}
+
+#id_permissions_filter, #id_user_permissions_filter, #id_groups_filter {
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+    border-bottom: unset;
+}
+
+.selector select {
+    border-bottom-left-radius: 7px!important;
+    border-bottom-right-radius: 7px!important;
+}
+
+#changelist .actions .button:hover {
+    border-color: #DAC342!important;
+    background: #DAC342!important;
+}
+#changelist-form label {
+    color: #325682!important;
+    font-size: 13px!important;
+}
+
+#searchbar:focus {
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #0F96B9!important;
+}
+
+#changelist table tbody tr.selected {
+    background: #1f77a023!important;
+}
+
+#changelist table input {
+    cursor: pointer;
+}
+
+#changelist-filter li.selected {
+    border-left: 5px solid #0F96B9!important;
+}
+
+#changelist-filter li.selected a {
+    color: #0F96B9!important;
+    font-weight: bold;
+}
+
+#changelist-filter #changelist-filter-clear {
+    color: #DAC342!important;
+}
+
+#changelist-filter #changelist-filter-clear:hover {
+    text-decoration: underline;
+}
+/*Boja gumbova za spremi i unesi novi i spremi i nastavi uređivati Grupe*/
+input[type=submit], input[type=button], .submit-row input{
+    background: #0F96B9!important;
+}
+
+/*Hover preko tih gumbića*/
+input[type=submit]:hover, input[type=button]:hover{
+    background: #6F6F6F!important;
+}
+/*Odabrano-privilegije button Grupe*/
+.selector-chosen h2 {
+    background: #0F96B9!important;
+    text-align: center;
+}
+.form-row.field-groups label, .form-row.field-user_permissions label  {
+    font-weight: bold!important;
+    font-size: 16px!important;
+}
+
+.selector .selector-available h2 {
+    text-align: center;
+}
+
+#id_permissions_add_link, #id_groups_add_link, #id_user_permissions_add_link {
+    background: url(../img/arrow-right-square.svg) 0 0 no-repeat!important
+} 
+
+#id_permissions_remove_link, #id_groups_remove_link, #id_user_permissions_remove_link {
+    background: url(../img/arrow-left-square.svg) 0 0 no-repeat!important
+} 
+
+.selector ul.selector-chooser {
+    background-color: unset!important;
+}
+
+.selector-add, .selector-remove {
+    height: 18px!important;
+    width: 18px!important;
+    box-shadow: 0px 0px 7px #325682;
+}
+/*boja gumba Odaberi sve/grupe */
+a.selector-chooseall, a.selector-clearall {
+    color: #0F96B9!important;
+}
+
+.form-row input[type=text], .form-row select[multiple], input[type=password] {
+    outline: none!important;
+}
+
+.form-row input[type=text]:focus, .form-row select[multiple]:focus, input[type=password]:focus {
+    border: 2px solid #0F96B9!important;
+}
+form {
+    padding: 4px!important;
+}
+
+/*Povijest promjena*/  
+#change-history thead th {
+    color: #325682!important;
+    border-top: unset!important;
+    background: white!important;
+}
+
+#change-history tbody tr:last-child > * {
+    border-bottom: unset!important;
+}
+
+/*Promijeni Korisnici*/
+#user_form .aligned > h2{
+    background: #0F96B9!important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+label {
+    color: #325682!important;
+}
+.datetimeshortcuts .date-icon, .datetimeshortcuts a{
+    color: #325682!important;
+}
+
+.datetimeshortcuts a:hover {
+    color: #DAC342!important;
+    text-decoration: underline;
+}
+
+.cancel-link {
+    background: white!important;
+    color: #325682!important;
+    border: 1px solid #325682!important;
+    border-radius: 10px;
+}
+
+.cancel-link:hover {
+    background: #6F6F6F!important;
+    color: white!important;
+    border: 1px solid #DAC342!important;
+    border-radius: 10px;
+}
+
+#changelist-filter #changelist-filter-clear a {
+    color: #da0000;
+}
+
+.submit-row {
+    background-color: white!important;
+    border: none!important;
+}
+
+.form-row {
+    border-bottom: unset!important;
+}
+
+/*###############
+#######SIDEBAR TEST########
+###########*/
+
+.change-list #toggle-nav-sidebar {
+    display: none;
+}
+
+.change-list #nav-sidebar {
+    box-shadow: 1px 0px 3px 1px #c4c4c45e;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0!important;
+    left: 0px!important;
+    background-color: #16386108;
+}
+
+.change-list .module {
+    border: none;
+}
+
+.change-list .module caption {
+    border-bottom: none;
+    background: unset;
+    box-shadow: none;
+}
+
+.change-list .module {
+   background: none;
+}
+
+#nav-sidebar .app-user.module caption a {
+    background: url(../img/person-fill.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+#nav-sidebar .app-auth.module caption a {
+    background: url(../img/people-fill.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+#nav-sidebar .app-obrasci.module caption a {
+    background: url(../img/pencil-square.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+}
+
+.change-list .module table tr {
+    background: unset;
+}
+
+.change-list #changelist-filter {
+    box-shadow: 0px 1px 10px 6px #c4c4c45e;
+    background: #f8f9fa;
+}
+
+.change-list #changelist-filter h2 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    padding: 5px 15px;
+    margin-bottom: 12px;
+    border-bottom: none;
+    background: #ffffff00;
+    color: black;
+    text-transform: inherit!important;
+}
+
+.change-list #changelist-filter h3 {
+    color: #325682!important;
+    text-transform: inherit!important;
+    border-radius: 5px!important;
+    font-size: 16px;
+    padding: px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Novi unos test*/
+.change-form #toggle-nav-sidebar {
+    display: none;
+}
+
+.change-form #nav-sidebar {
+    box-shadow: 1px 0px 3px 1px #c4c4c45e;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0!important;
+    left: 0px!important;
+    background-color: #16386108;
+}
+
+.change-form .module {
+    border: none;
+    background: unset;
+}
+
+.change-form .module table tr {
+    background: unset;
+}
+
+.change-form .module caption {
+    border-bottom: none!important;
+    box-shadow: none!important;
+    background: none!important;
+}
+
+
+/*Brisanje korisnika*/
+.delete-confirmation #toggle-nav-sidebar {
+    display: none;
+}
+
+.delete-confirmation #nav-sidebar {
+    box-shadow: 1px 0px 3px 1px #c4c4c45e;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0!important;
+    left: 0px!important;
+    background-color: #16386108;
+}
+.delete-confirmation .module {
+    border: none;
+}
+
+.delete-confirmation .module caption {
+    border-bottom: none;
+    background: unset;
+    box-shadow: none;
+}
+
+.delete-confirmation .module {
+   background: none;
+}
+
+.delete-confirmation .module table tr {
+    background: unset;
+}
+
+/*POVIJEST*/
+
+body[class=""] #toggle-nav-sidebar {
+    display: none;
+}
+
+body[class=""] #nav-sidebar {
+    box-shadow: 1px 0px 3px 1px #c4c4c45e;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin: 0!important;
+    left: 0px!important;
+    background-color: #16386108;
+}
+
+body[class=""] .module {
+    border: none;
+}
+
+body[class=""] .module caption {
+    border-bottom: none;
+    background: unset;
+    box-shadow: none;
+}
+
+body[class=""] .module {
+   background: none;
+}
+body[class=""] .module table tr {
+    background: unset;
+}
+
+
+
+#odustanak {
+    background: #325682;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    color: #fff!important;
+    cursor: pointer;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size: 13px;
+    margin: 2px 0;
+    vertical-align: middle;
+}
+
+
+
+
+#odustanak:hover {
+    background: #DAC342!important;
+}
+
+#tipke-logout {
+    text-align: center!important;
+    padding: unset!important;
+    padding-top: 20px!important;
+}
+
+th, a, input {
+    font-family: 'Raleway'!important;
+}
+
+.div_simboli1{
+    margin-right: 20%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    background: #ffffffd4;
+    border-bottom: 0.05rem solid #001f3f80;
+    box-shadow: 0px 0px 3px 0px #001f3f;
+}
+
+.onmouseover {
+    background-color: #325682!important;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.onclick {
+    background-color: #325682!important;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+.onclick-font {
+    color: white!important;
+}
+
+.onmouseover-font {
+    color: white!important;
+}
+
+
+#open_objekt_onmap {
+    background: #325682!important;
+    padding: 12px 14px!important;
+    color: white!important;
+    border-radius: 10px!important;
+    border: 1px solid #325682!important;
+    line-height: 0!important;
+    font-size: 13px!important;
+    margin-left: 10px;
+    cursor: pointer;
+    text-transform: initial !important;
+    font-weight: 300 !important;
+}
+
+
